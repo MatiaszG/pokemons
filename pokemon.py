@@ -1,5 +1,6 @@
 from utils import calculate_multiplier
 
+
 def main():
     print('Insert attack type: ')
     attack_type = input()
@@ -7,6 +8,7 @@ def main():
     pokemon_types = list(input().split(' '))
 
     print(calculate_multiplier(attack_type, pokemon_types))
+
 
 if __name__ == "__main__":
     main()

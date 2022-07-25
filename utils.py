@@ -1,5 +1,6 @@
 import requests
 
+
 def calculate_multiplier(attack_type, pokemon_types):
     response = requests.get("https://pokeapi.co/api/v2/type/"+attack_type)
     if response.ok:
